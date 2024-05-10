@@ -1,0 +1,66 @@
+@media screen and (max-width : 767px) {
+    .sidebar{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 3;
+        transform: translateX(-100%);
+        width: 70%;
+        transition: all 0.3s ease-in-out;
+    }
+    .close-btn{
+        position: absolute;
+        font-size: 2.3rem;
+        right: 20px;
+        top: 15px;
+        opacity: 0.6;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homepage-main{
+        padding: 0px 10px;
+    }
+    .text-area-div{
+        width: 95%;
+    }
+    .mobile-navigation{
+        display: flex;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.142);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    .mobile-navigation .logo{
+        max-width: 200px;
+        width: 40%;
+    }
+    .mobile-navigation a{
+        padding: 5px 20px;
+        background-color: #B6E003;
+        color: black;
+        border-radius: 50px;
+        font-size: 2.3vw;
+    }
+    .answer-box{
+        margin-top: 100px;
+    }
+    .answer-box .text-area-div{
+        width: 90%;
+    }
+    .source-container{
+        margin-bottom: 160px;
+    }
+    .homepage-suggestions{
+        max-width: 80%;
+    }
+}
