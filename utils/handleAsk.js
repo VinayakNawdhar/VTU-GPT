@@ -1,6 +1,6 @@
 
 export const handleAsk = async (question) => {
-    const response = await fetch('http://localhost:8000/query', {
+    const response = await fetch('http://ec2-13-60-96-174.eu-north-1.compute.amazonaws.com/query', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
