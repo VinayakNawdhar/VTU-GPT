@@ -25,7 +25,7 @@ const Sidebar = () => {
     const [newNotebookName,setNewNotebookName] = useState("")
     let getNotebooks = () => {
         if (session.status == 'authenticated') {
-            axios.get(`http://localhost:3000/api/notebooks?userId=${session.data.userId}`)
+            axios.get(`/api/notebooks?userId=${session.data.userId}`)
                 .then(res => {
                     setNotebooks(res.data);
                 })
